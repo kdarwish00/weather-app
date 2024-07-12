@@ -1,0 +1,1 @@
+export const weatherUrl = (location: string | undefined) => `http://localhost:3000/api/weather/${location}`;
